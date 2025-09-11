@@ -1,0 +1,158 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "8393afa5-0102-451e-80f3-7b43bc4b07f7",
+   "metadata": {},
+   "source": [
+    "# PRIMER NOTEBOOK"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "443df85c-5245-490e-95ad-d6df2d694c92",
+   "metadata": {},
+   "source": [
+    "## **Este es mi primer notebook y voy a hacer lo siguiente**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d0eb9d03-e0d6-45d6-9c45-6c57fe4be742",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true
+   },
+   "source": [
+    "### Una lista **enumerada**\n",
+    "1. Primero\n",
+    "2. Segundo\n",
+    "3. Tercero"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d2249834-84cd-490d-9b9e-5eec18c536af",
+   "metadata": {},
+   "source": [
+    "### Una lista **por puntos**\n",
+    "- Primer punto\n",
+    "- Segundo punto\n",
+    "- Tercer punto"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9ce21b58-52b4-4ab6-b2d8-b3d0ebe3b0bf",
+   "metadata": {},
+   "source": [
+    "### Mi primer código"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5c95d7fb-77cf-4a9f-9c43-c714d1d88053",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "mi_primera_frase = \"hello world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d777dfce-c070-4615-9780-c2f916450b9f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Como cuando lo ejecuto no sale nada, tengo que usar la función print()\n",
+    "print(mi_primera_frase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "d41939df-9e11-4faf-a8c0-562f5cf1186c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# A ver si así lo entendeis mejor:\n",
+    "numeros = [10,20,30,40,50]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "3831fcca-1e8c-45f8-8f5f-9027dd5c22a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "media = sum(numeros) / len(numeros)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "fa0d1f9c-24f3-4d26-a417-d07ec4c7c26e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(media)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "82080ae2-d24c-46f5-9d50-2208860593a8",
+   "metadata": {},
+   "source": [
+    "## **Finalizamos con una bonita imagen**\n",
+    "![Mi imagen](Gorrion.jpg)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b4749273-307c-4dbb-8d0c-19a9dd5827d8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
