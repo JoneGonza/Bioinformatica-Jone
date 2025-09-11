@@ -1,1 +1,1 @@
-# Bioinform-tica-Jone
+# Bioinformatica-Jone
